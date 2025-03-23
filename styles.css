@@ -117,7 +117,7 @@ body {
 
 /* Sections */
 .section {
-  background: url('flower.jpg') no-repeat center center/cover; /* Add background image */
+  background: url('flower1.jpg') no-repeat center center/cover; /* Add background image */
   padding: 40px 20px;
   min-height: 100vh;
   display: flex;
@@ -129,7 +129,7 @@ body {
 
 .section h2 {
   font-family: 'Great Vibes', cursive;
-  font-size: 4.5rem;
+  font-size: 4rem;
   margin-bottom: 5px;
   margin-top: 1px;
 }
@@ -171,7 +171,7 @@ body {
 
 /* styles.css */
 .itinerary-table {
-  width: 90%;
+  width: 100%;
   max-width: 500px; /* Match the container width */
   margin: 10px auto;
   border-collapse: collapse; /* Remove space between cells */
