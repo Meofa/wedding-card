@@ -5,7 +5,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #ffffff;
   scroll-behavior: smooth;
-  
+  background: url('flower.jpg') no-repeat center center/cover; /* Add background image */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@ body {
 /* Centered Container (Scrollable Content) */
 .container {
   width: 100%;
-  max-width: 375px; /* Adjust the width for portrait mode */
+  max-width: 380px; /* Adjust the width for portrait mode */
   background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for readability */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   flex: 1; /* Take up remaining space */
